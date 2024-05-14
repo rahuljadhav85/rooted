@@ -3,7 +3,7 @@ import React from 'react'
 const OrderSummery = () => {
   return (
       <>
-          <div id="orderSummeryWrap">
+    <div id="orderSummeryWrap">
               <div id='sidebar'>
               <div className="row row-gap-4 ">
     <div className="col-12">

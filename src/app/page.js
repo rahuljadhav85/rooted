@@ -41,17 +41,19 @@ const page = () => {
                   
                 </h1>
                 <p data-aos="fade-right" data-aos-delay="100">
-                  With Rooted, indulge in the authentic Indian flavours and
-                  cuisines, connect with vibrant food cultures, celebrate the
-                  joy of  sharing wholesome meals.
+                  <Textra
+                    effect='downTop'
+                    data={['With Rooted, indulge in the authenticity of flavours and cuisines, connect with vibrant cultures, celebrate the joy of discovery and sharing wholesome meals.', 'With Rooted, indulge in the authenticity of flavours and cuisines, connect with vibrant cultures, celebrate the joy of discovery and sharing wholesome meals.']} />
                 </p>
+                
+               
                 <Link
                   href="subscription-box-size"
                   className="btn1"
                   data-aos="fade-right"
                   data-aos-delay="200"
                 >
-                  Subscribe Now{" "}
+                  Subscribe Now
                   <img src="assets/images/icons/right-arrow.svg" alt="" />
                 </Link>
               </div>
@@ -87,8 +89,7 @@ const page = () => {
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
-                Embark on a sumptuous journey with Rooted, where every bite is
-                an exploration of India's rich culinary landscapes.
+                Embark on a sumptuous journey with Rooted, where every bite is an exploration of India's rich culinary landscapes. 
               </p>
             </div>
           </div>
@@ -98,12 +99,12 @@ const page = () => {
                 <img src="assets//images/how-it-works/hiw1.svg" alt="" />
                 <div className="details">
                   <h2>
-                    Subscribe To
+                    Subscribe to
                     <br />
-                    Any Of <span>Our Plans</span>
+                    any of <span>our plans </span>
                   </h2>
                   <p className="text-center">
-                    We encourage
+                    We encourage 
                     <br />
                     you to be curious.
                   </p>
@@ -115,14 +116,16 @@ const page = () => {
                 <img src="assets//images/how-it-works/hiw2.svg" alt="" />
                 <div className="details">
                   <h2>
-                    Tailor
+                    Tailor   
                     <br />
-                    Your <span>Selection</span>
+                    your <span>selection</span>
                   </h2>
                   <p className="text-center">
-                    Every meal plan is
+                  to fit your dietary preferences. 
                     <br />
-                    uniquely curated for you.
+                    Every dish is customizable to ensure
+                    <br />
+                    it's just right for you.
                   </p>
                 </div>
               </div>
@@ -132,14 +135,14 @@ const page = () => {
                 <img src="assets//images/how-it-works/hiw3.svg" alt="" />
                 <div className="details">
                   <h2>
-                    Savour The
-                    <br />
-                    <span>Authentic Taste</span>
+                    Savour the authentic<br />taste, 
+                    
+                    <span>wherever you are.</span>
                   </h2>
                   <p className="text-center">
-                    Sit back and relax as we deliver a culinary
+                  Sit back and relax as we deliver a culinary 
                     <br />
-                    journey to your workplace.
+                    journey to your doorstep.
                   </p>
                 </div>
               </div>
@@ -156,7 +159,7 @@ const page = () => {
                 data-aos="fade-up"
                 data-aos-delay="000"
               >
-                Rooted’s Cuisines
+                Rooted's Cuisines
               </h1>
             </div>
             <div
@@ -165,16 +168,12 @@ const page = () => {
               data-aos-delay="100"
             >
               <p>
-                Far beyond the ordinary, Rooted unearths and brings to the table
-                the true, vibrant flavours of India that often go undiscovered
-                and/or are not easily available on demand.
+              Far beyond the ordinary, Rooted aims to unearth and bring to your table the true, vibrant flavours of India that often go undiscovered and are not easily available on demand.
               </p>
             </div>
             <div className="col-md-6" data-aos="fade-left" data-aos-delay="200">
               <p>
-                At Rooted our commitment is to authenticity and richness,
-                ensuring that what comes is not just food, but a celebration of
-                India's incredible culinary diversity.
+              At Rooted our commitment is to authenticity and richness, ensuring that what reaches you is not just food, but a celebration of India's incredible culinary diversity. 
               </p>
             </div>
           </div>
@@ -374,10 +373,7 @@ const page = () => {
                         <div className="box prime position-relative">
                           <div className="row justify-content-center">
                             <div className="col-md-8 text-center">
-                              While the classics hold a special place in our
-                              hearts, the culinary treasure trove of Northern
-                              India is brimming with undiscovered gems that
-                              await your palate.
+                            At Rooted, we believe in exploring beyond the familiar horizon of roti, naan, sarso da saag, and butter chicken. While these classics hold a special place in our hearts, the culinary treasure trove of Northern India is brimming with undiscovered gems that await your palate. Our mission is to take you on a journey through the lesser-known, yet equally mesmerising flavours of the North. 
                             </div>
                           </div>
                           <div className="row mt-5 justify-content-center">
@@ -502,10 +498,7 @@ const page = () => {
                         <div className="box second position-relative">
                           <div className="row justify-content-center">
                             <div className="col-md-8 text-center">
-                              While the classics hold a special place in our
-                              hearts, the culinary treasure trove of Northern
-                              India is brimming with undiscovered gems that
-                              await your palate.
+                            Beyond the popular pav bhaji, tambda pandra rasa, fish thali and vada pav, a treasure trove of flavours is waiting to be explored. With Rooted, embark on a culinary voyage through the heart of Maharashtra, from the coastal Konkan to the rugged Sahyadris, uncovering dishes that are a testament to the state's vibrant culture and traditions. Experience the bold and earthy flavours of the Vidarbha region, the subtle sweetness infused in the cuisine of the Peshwas, and the fiery zest of Kolhapuri dishes. 
                             </div>
                           </div>
                           <div className="row mt-5 justify-content-center">
@@ -630,10 +623,9 @@ const page = () => {
                         <div className="box prime position-relative">
                           <div className="row justify-content-center">
                             <div className="col-md-8 text-center">
-                              While the classics hold a special place in our
-                              hearts, the culinary treasure trove of Northern
-                              India is brimming with undiscovered gems that
-                              await your palate.
+                              At Rooted, we invite you to delve deeper than the familiar idli, sambar and neer dosa, to uncover the hidden jewels of South Indian cuisine.
+                              We're passionate about introducing you to the lesser-known yet incredibly flavorful dishes that define the essence of Southern India. Imagine savouring the rich, layered complexity of Chettinad cuisine, the earthy comforts of Udupi's vegetarian fare and the delicate seafood wonders of the Malabar coast.
+
                             </div>
                           </div>
                           <div className="row mt-5 justify-content-center">
@@ -758,10 +750,7 @@ const page = () => {
                         <div className="box second position-relative">
                           <div className="row justify-content-center">
                             <div className="col-md-8 text-center">
-                              While the classics hold a special place in our
-                              hearts, the culinary treasure trove of Northern
-                              India is brimming with undiscovered gems that
-                              await your palate.
+                            Embark on a culinary exploration with the Gujarati Tapestry where the ethos of simplicity meets the essence of lavishness in every dish. Rooted invites you to delve beyond the familiar to discover the rich, multifaceted flavours of Gujarat—a state where the culinary landscape is as diverse as its heritage. Each dish, though simple in its ingredients, is lavish in its preparation and presentation, embodying the spirit of Gujarati hospitality where every guest is treated like royalty.
                             </div>
                           </div>
                           <div className="row mt-5 justify-content-center">
@@ -886,10 +875,8 @@ const page = () => {
                         <div className="box prime position-relative">
                           <div className="row justify-content-center">
                             <div className="col-md-8 text-center">
-                              While the classics hold a special place in our
-                              hearts, the culinary treasure trove of Northern
-                              India is brimming with undiscovered gems that
-                              await your palate.
+                            Bengali cuisine is a celebration of contrasts—where the subtle sweetness of coconut milk meets the fiery zest of mustard oil, and the delicate flavours of freshwater fish are enhanced by robust spices. It's a culinary tradition that mirrors the vibrant, diverse life of Bengal itself, from the bustling streets of Kolkata to the tranquil shores of the Sundarbans. The Rooted menu moves beyond Jhol-Jhaal and is a tribute to the culinary artistry and vibrant culture of Bengal. 
+
                             </div>
                           </div>
                           <div className="row mt-5 justify-content-center">
@@ -1021,13 +1008,106 @@ const page = () => {
             data-aos="fade-up"
             data-aos-delay="000"
           >
-            <a href="" className="btn1">
-              Subscribe Now{" "}
-              <img src="assets/images/icons/right-arrow.svg" alt="" />
-            </a>
+            
+            <Link href="/subscription-box-size" class="btn1" data-aos="fade-up" data-aos-delay="000">Subscribe Now <img src="assets/images/icons/right-arrow.svg" alt="" /></Link>
           </div>
         </div>
       </section>
+      
+
+      <section className="whyRooted | padding-block-max">
+            <div className="container">
+                <div className="row justify-content-center">
+                    <div className="col-md-6">
+                        <h1 className="heading1 text-center" data-aos="fade-up" data-aos-delay="000">Why Rooted?</h1>
+                        <p className="text-center" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet consectetur. Ornare massa nunc nibh tristique. Non ligula tristique ut ut libero sit convallis </p>
+                    </div>
+                </div>
+                <div className="row mt-5">
+                    <div className="col-md-12">
+                        <div className="d-flex align-items-start">
+                            
+                            <div className="tab-content" data-aos="fade-right" data-aos-delay="000" id="v-pills-tabContent">
+                                <div className="tab-pane fade show active" id="v-pills-Heartfelt" role="tabpanel" aria-labelledby="v-pills-Heartfelt-tab" tabindex="0">
+                                    <div className="box prime">
+                                        <div className="num">01</div>
+                                        <img src="assets/images/why-rooted/01.png" alt="" />
+                                        <div className="details">
+                                            <h2>Heartfelt Connection to Heritage</h2>
+                                            <p>Do you remember the taste straight from your grandma's kitchen? Rooted is dedicated to reviving those very recipes that have been passed down through generations, ensuring that every bite reconnects you with your roots.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="tab-pane fade" id="v-pills-Repetition" role="tabpanel" aria-labelledby="v-pills-Repetition-tab" tabindex="0">
+                                    <div className="box second">
+                                        <div className="num">02</div>
+                                        <img src="assets/images/why-rooted/02.png" alt="" />
+                                        <div className="details">
+                                            <h2>Say goodbye to Repetition</h2>
+                                            <p>With Rooted, embark on a diverse culinary journey that promises a new adventure with every meal each day. Our ever-changing menu ensures that your taste buds are always treated to something exciting, eliminating the need to ponder over what to eat next.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="tab-pane fade" id="v-pills-Decisions" role="tabpanel" aria-labelledby="v-pills-Decisions-tab" tabindex="0">
+                                    <div className="box prime">
+                                        <div className="num">03</div>
+                                        <img src="assets/images/why-rooted/03.png" alt="" />
+                                        <div className="details">
+                                            <h2>Simplifying Your Daily Decisions</h2>
+                                            <p>For the busy corporate professional, deciding what to eat instructing the cook on what to prepare can be an added daily hassle. Rooted takes this burden off your shoulders by delivering you meticulously craed, diverse meals directly.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+                                    <div className="box second">
+                                        <div className="num">04</div>
+                                        <img src="assets/images/why-rooted/04.png" alt="" />
+                                        <div className="details">
+                                            <h2>Preserving Our Culinary Identity</h2>
+                                            <p>In an era where fast food and food colonialism threaten to dilute our individual culinary identity. At Rooted, we're not just serving meals; we're safeguarding the rich traditions and food values that define us all. With Rooted, you not only enjoy a meal; you participate in a movement to preserve and celebrate our diverse culinary heritage.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                <button className="nav-link active" id="v-pills-Heartfelt-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Heartfelt" type="button" role="tab" aria-controls="v-pills-Heartfelt" aria-selected="true" data-aos="fade-left" data-aos-delay="000">
+                                    <div className="item">
+                                        <div className="num">01</div>
+                                        <h2>Heartfelt Connection to Heritage</h2>
+                                        <p>Do you remember the taste straight from your grandma's kitchen?</p>
+                                    </div>
+                                </button>
+                                <button className="nav-link" id="v-pills-Repetition-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Repetition" type="button" role="tab" aria-controls="v-pills-Repetition" aria-selected="false" data-aos="fade-left" data-aos-delay="100">
+                                    <div className="item">
+                                        <div className="num">02</div>
+                                        <h2>Say goodbye to Repetition</h2>
+                                        <p>With Rooted, embark on a diverse culinary journey that promises a new adventure with every meal each day. </p>
+                                    </div>
+                                </button>
+                                <button className="nav-link" id="v-pills-Decisions-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Decisions" type="button" role="tab" aria-controls="v-pills-Decisions" aria-selected="false" data-aos="fade-left" data-aos-delay="150">
+                                    <div className="item">
+                                        <div className="num">03</div>
+                                        <h2>Heartfelt Connection to Heritage</h2>
+                                        <p>Do you remember the taste straight from your grandma's kitchen?</p>
+                                    </div>
+                                </button>
+                                <button className="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false" data-aos="fade-left" data-aos-delay="200">
+                                    <div className="item">
+                                        <div className="num">04</div>
+                                        <h2>Preserving Our Culinary Identity</h2>
+                                        <p>In an era where fast food and food colonialism threaten to dilute our individual culinary identity.</p>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="row mt-5 justify-content-center">
+                    
+                  <Link href="/subscription-box-size" class="btn1" data-aos="fade-up" data-aos-delay="000">Subscribe Now <img src="assets/images/icons/right-arrow.svg" alt="" /></Link>
+                </div>
+            </div>
+        </section>
 
       <section className="testimonials | padding-block-max">
         <div className="container">

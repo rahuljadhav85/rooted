@@ -34,7 +34,7 @@ const page = () => {
                 </div>
                 <div className="row justify-content-center">
                     <div className="col-md-8">
-                        <h2 className="text1 text-center">Thank You For Embarking On This Flavorful Journey With Rooted. </h2>
+                        <h2 className="text1 text-center">Thank you for embarking on this flavorful journey with Rooted. </h2>
                     </div>
                     <div className="col-md-10">
                         <h2 className="text2 text-center">Here's to discovering new tastes, celebrating diversity, and enjoying the art of fine dining together.</h2>
@@ -47,18 +47,18 @@ const page = () => {
                 <div className="row justify-content-center">
                     <div className="col-md-8">
                         <div className="text1 text-center">
-                            Do you have any questions or need assistance, our customer support team is just an email or phone call away, ready to ensure your Rooted experience is nothing short of fantastic.
+                        Should you have any questions or need assistance, our customer support team is just an email - name.123@gmail.com or phone call +91 68465 58468 away, ready to ensure your Rooted experience is nothing short of fantastic.
                         </div>
                     </div>
                 </div>
-                <div className="row row-gap-4 justify-content-center mt-5">
+                {/* <div className="row row-gap-4 justify-content-center mt-5">
                     <div className="col-md-3">
                         <a href="" className="btn1 w-100"><div className="circle"><img src="assets/images/icons/mail.svg" alt="" /></div> name.123@gmail.com</a>
                     </div>
                     <div className="col-md-3">
                         <a href="" className="btn2 w-100"><div className="circle"><img src="assets/images/icons/call.png" alt="" /></div> +91 68465 58468</a>
                     </div>
-                </div>
+                </div> */}
                 <div className="row justify-content-center mt-5">
                     <div className="col-md-6">
                         <h3 className="text-center">Follow Us On Social Media</h3>

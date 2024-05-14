@@ -1,6 +1,7 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Link from 'next/link'
+import OtpInput from 'react-otp-input';
 
 const page = () => {
     useEffect(() => {
@@ -9,6 +10,7 @@ const page = () => {
           document.body.classList.remove('headeBorder')
         }
       }, [])
+      const [otp, setOtp] = useState('');
   return (
       < >
       <div id="main" className="subscribeWrapper">
@@ -37,15 +39,16 @@ const page = () => {
                                 <div className="otp">
                                     <label for="">Enter OTP sent to +91 987654321 </label>
                                     <div className="group">
-                                        <input type="number" />
-                                        <input type="number" />
-                                        <input type="number" />
-                                        <input type="number" />
-                                        <input type="number" />
-                                        <input type="number" />
+                                              <OtpInput
+                                                value={otp}
+                                                onChange={setOtp}
+                                                numInputs={6}
+                                                renderSeparator={<span style={{minWidth:"25px"}}></span>}
+                                                renderInput={(props) => <input {...props} style={{width:"100%"}} />}
+                                              />
                                     </div>
                                 </div>
-                                <div className="resend text-center">
+                                <div className="resend text-center mt-3">
                                     Resend in 0:30
                                 </div>
                                 {/* for disabled */}

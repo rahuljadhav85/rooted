@@ -22,7 +22,7 @@ const page = () => {
                     <div className="col-md-6">
                         <div className="details">
                             <h1 data-aos="fade-right" data-aos-delay="000">About Us</h1>
-                            <p data-aos="fade-right" data-aos-delay="100">At Rooted, we're more than just a meal delivery service; we're a movement towards Elavating you daily dining experience. In a world where the food industry is increasingly leaning towards fast, industrialised options, we stand out by bringing the soulful essence of traditional cooking back to the forefront. Our mission is to provide not just meals, but experiences that are rich in heritage, diversity, and authenticity.</p>
+                            <p data-aos="fade-right" data-aos-delay="100">At Rooted, we're more than just a meal delivery service; we're a movement towards redefining the corporate dining experience. In a world where the food industry is increasingly leaning towards fast, industrialised options, we stand out by bringing the soulful essence of traditional cooking back to the forefront. Our mission is to provide not just meals, but experiences that are rich in heritage, diversity, and authenticity. </p>
                             
                         </div>
                     </div>
@@ -48,7 +48,7 @@ const page = () => {
                             <img src="assets/images/values/inclusive.jpg" alt="" className="bg inclusive" />
                             <div className="details prime">
                                 <h2>Inclusive</h2>
-                                <p>Rooted champions inclusivity by offering a diverse menu that caters to a wide range of dietary needs, preferences, and cultural tastes. Our goal is to create a dining experience where everyone feels cherished and excited to explore the vast world of flavours together.</p>
+                                <p>Rooted champions inclusivity by offering a diverse menu that caters to a wide range of dietary needs, preferences, and cultural tastes. Our goal is to create a dining experience where everyone feels welcomed, valued, and excited to explore the vast world of flavours together.</p>
                             </div>
                         </div>
                     </div>
@@ -91,7 +91,7 @@ const page = () => {
                     </div>
                     <div className="col-md-6">
                         <h1 className="heading1" data-aos="fade-left" data-aos-delay="000">What We Stand For</h1>
-                        <p data-aos="fade-left" data-aos-delay="100">In this fast-paced world, good food has clearly taken a backseat. At Rooted, we stand for more than just good food. We're dedicated to creating a dining experience that delights, educates, and inspires, all while upholding our commitment to sustainability and ethical sourcing. Our goal is to make it easy and enjoyable for you to explore new cuisines, discover new flavours, and enjoy high-quality, nutritious meals every day.</p>
+                        <p data-aos="fade-left" data-aos-delay="100">At Rooted, we stand for more than just good food. We stand for the power of food to bring people together, to teach us about the world, and to make a positive impact on the planet. We're dedicated to creating a dining experience that delights, educates, and inspires, all while upholding our commitment to sustainability and ethical sourcing. Our goal is to make it easy and enjoyable for you to explore new cuisines, discover new flavours, and enjoy high-quality, nutritious meals every day.</p>
                     </div>
                 </div>
             </div>
@@ -102,11 +102,8 @@ const page = () => {
                     <div className="col-12">
                         <h1 className="heading1 text-center" data-aos="fade-up" data-aos-delay="000">Our Founders</h1>
                     </div>
-                    <div className="col-md-6" data-aos="fade-right" data-aos-delay="000">
-                        <p>Rooted in unwavering dedication and a shared passion for our mission, our exceptional team forms the cornerstone of our success. With diverse backgrounds and unparalleled expertise, </p>
-                    </div>
-                    <div className="col-md-6" data-aos="fade-left" data-aos-delay="100">
-                        <p>each member plays a pivotal role in bringing our vision to life. Together, we combine years of experience and innovative thinking to serve you better, every step of the way.</p>
+                    <div className="col-md-12" data-aos="fade-right" data-aos-delay="000">
+                        <p>Rooted in unwavering dedication and a shared passion for our mission, our exceptional team forms the cornerstone of our success. With diverse backgrounds and unparalleled expertise, each member plays a pivotal role in bringing our vision to life. Together, we combine years of experience and innovative thinking to serve you better, every step of the way.</p>
                     </div>
                 </div>
                 <div className="row row-gap-4 mt-5 justify-content-center">
@@ -116,7 +113,7 @@ const page = () => {
                             <img src="assets/images/founder/001.jpg" alt="" className="bg" />
                             <div className="details prime">
                                 <h2>Saurabh Wadkar</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet sagittis velit, ac faucibus tortor. Proin massa eros, lacinia sed enim vitae, elementum dictum sapien. Cras vitae turpis sit amet massa faucibus sollicitudin sit amet eget quam. Ut consequat non sem vel condimentum. Nam venenatis tempus dignissim. Suspendisse fermentum pretium vestibulum. Suspendisse eget scelerisque ligula, vel pellentesque ipsum. Proin tempor vitae quam non eleifend.</p>
+                                <p>Multifaceted Triple Degree Holder F&B Trailblazer with Global Expertise Culturally Adept Culinary Explorer </p>
                             </div>
                         </div>
                     </div>
@@ -126,7 +123,17 @@ const page = () => {
                             <img src="assets/images/founder/001.jpg" alt="" className="bg" />
                             <div className="details second">
                                 <h2>Neha Shah</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet sagittis velit, ac faucibus tortor. Proin massa eros, lacinia sed enim vitae, elementum dictum sapien. Cras vitae turpis sit amet massa faucibus sollicitudin sit amet eget quam. Ut consequat non sem vel condimentum. Nam venenatis tempus dignissim. Suspendisse fermentum pretium vestibulum. Suspendisse eget scelerisque ligula, vel pellentesque ipsum. Proin tempor vitae quam non eleifend.</p>
+                                <p>Managerial Mastermind Global Gourmet Connoisseur Visionary Epicure With Style </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                        <div className="box">
+                            <div className="overlay"> </div>
+                            <img src="assets/images/founder/001.jpg" alt="" className="bg" />
+                            <div className="details prime">
+                                <h2>Navin Khadilkar</h2>
+                                <p>Process-driven Culinary Expert Indian cuisine Aficionado Bulk Cooking Specialist </p>
                             </div>
                         </div>
                     </div>
