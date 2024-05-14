@@ -28,8 +28,9 @@ const page = () => {
                 <div className="row justify-content-center row-gap-5">
                     <div className="col-md-6">
                         <form name="" method="post" action="">
-                            <div className="loginBox">
-                                <div className="heading1 fs-600 text-center" style={{marginTop: '90px'}}>Ready, Set, Eat! Your Account is Successfully Created.</div>
+                                  <div className="loginBox">
+                                      <img src="assets/images/gif/RootedSuccessfullAnimation.gif" alt="" />
+                                <div className="heading1 fs-600 text-center" >Ready, Set, Eat! Your Account is Successfully Created.</div>
                                
                             </div>
                         </form>
