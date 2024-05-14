@@ -59,7 +59,7 @@ const page = () => {
 
             <div className="col-md-5 offset-md-1">
               <img
-                src="/assets/images/banner/banner-img.svg"
+                src="assets/images/banner/banner-img.svg"
                 data-aos="fade-left"
                 data-aos-delay="100"
                 alt=""
@@ -192,7 +192,7 @@ const page = () => {
                             data-aos-delay="000"
                           >
                             <img
-                              src="/assets/images/cuisines/north.png"
+                              src="assets/images/cuisines/north.png"
                               alt=""
                             />
                             <div className="details prime">
@@ -229,7 +229,7 @@ const page = () => {
                             data-aos-delay="100"
                           >
                             <img
-                              src="/assets/images/cuisines/maratha.png"
+                              src="assets/images/cuisines/maratha.png"
                               alt=""
                             />
                             <div className="details second">
@@ -265,7 +265,7 @@ const page = () => {
                             data-aos-delay="200"
                           >
                             <img
-                              src="/assets/images/cuisines/southen.png"
+                              src="assets/images/cuisines/southen.png"
                               alt=""
                             />
                             <div className="details prime">
@@ -301,7 +301,7 @@ const page = () => {
                             data-aos-delay="300"
                           >
                             <img
-                              src="/assets/images/cuisines/gujrathi.png"
+                              src="assets/images/cuisines/gujrathi.png"
                               alt=""
                             />
                             <div className="details second">
@@ -337,7 +337,7 @@ const page = () => {
                             data-aos-delay="400"
                           >
                             <img
-                              src="/assets/images/cuisines/bengali.png"
+                              src="assets/images/cuisines/bengali.png"
                               alt=""
                             />
                             <div className="details prime">
@@ -1094,7 +1094,7 @@ const page = () => {
                     </div>
                     <div className="name">
                       <img
-                        src="/assets/images/clients/001.png"
+                        src="assets/images/clients/001.png"
                         className="pic"
                         alt=""
                       />
@@ -1115,7 +1115,7 @@ const page = () => {
                     </div>
                     <div className="name">
                       <img
-                        src="/assets/images/clients/001.png"
+                        src="assets/images/clients/001.png"
                         className="pic"
                         alt=""
                       />
@@ -1136,7 +1136,7 @@ const page = () => {
                     </div>
                     <div className="name">
                       <img
-                        src="/assets/images/clients/001.png"
+                        src="assets/images/clients/001.png"
                         className="pic"
                         alt=""
                       />
@@ -1157,7 +1157,7 @@ const page = () => {
                     </div>
                     <div className="name">
                       <img
-                        src="/assets/images/clients/001.png"
+                        src="assets/images/clients/001.png"
                         className="pic"
                         alt=""
                       />
@@ -1178,7 +1178,7 @@ const page = () => {
                     </div>
                     <div className="name">
                       <img
-                        src="/assets/images/clients/001.png"
+                        src="assets/images/clients/001.png"
                         className="pic"
                         alt=""
                       />
@@ -1199,7 +1199,7 @@ const page = () => {
                     </div>
                     <div className="name">
                       <img
-                        src="/assets/images/clients/001.png"
+                        src="assets/images/clients/001.png"
                         className="pic"
                         alt=""
                       />
