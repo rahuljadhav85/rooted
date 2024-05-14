@@ -42,7 +42,7 @@ const page = () => {
                                                     <input className="form-check-input" name="boxSize" type="radio" value="" id="bigSizeBox" />
                                                     <span className="checkmark"></span>
                                                     <label className="form-check-label" for="bigSizeBox">
-                                                        <img src="assets/images/subscribe/box.png" alt="" />
+                                                        <img src="/assets/images/subscribe/box.png" alt="" />
                                                     </label>
                                                     <div className="title">Large Box</div>
                                                 </div>
@@ -52,7 +52,7 @@ const page = () => {
                                                     <input className="form-check-input" name="boxSize" type="radio" value="" id="smallSizeBox" />
                                                     <span className="checkmark"></span>
                                                     <label className="form-check-label" for="smallSizeBox">
-                                                        <img src="assets/images/subscribe/box-small.png" alt="" />
+                                                        <img src="/assets/images/subscribe/box-small.png" alt="" />
                                                     </label>
                                                     <div className="title">Small Box</div>
                                                 </div>
@@ -60,7 +60,7 @@ const page = () => {
                                         </div>
                                         
                                               <div className="row mt-5 justify-content-center">
-                                                  <Link href="subscription-diet-type#DietType" className="btn1">Confirm <img src="assets/images/icons/right-arrow.svg" alt="" /></Link>
+                                                  <Link href="subscription-diet-type#DietType" className="btn1">Confirm <img src="/assets/images/icons/right-arrow.svg" alt="" /></Link>
                                         </div>
                                     </div>
                                 </div>

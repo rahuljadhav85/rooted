@@ -40,7 +40,7 @@ const page = () => {
                                             <div className="col-md-12">
                                                 <div className="boxSelected">
                                                     <div className="box">
-                                                        <img src="assets/images/subscribe/box.png" alt="" />
+                                                        <img src="/assets/images/subscribe/box.png" alt="" />
                                                     </div>
                                                     <div className="title">
                                                         Large Size Tiffin Box
@@ -60,7 +60,7 @@ const page = () => {
                                             <div className="col-md-12">
                                                 <div className="boxSelected">
                                                     <div className="box">
-                                                        <img src="assets/images/subscribe/veg.png" alt="" />
+                                                        <img src="/assets/images/subscribe/veg.png" alt="" />
                                                     </div>
                                                     <div className="title">
                                                         Vegetarian Diet
@@ -82,7 +82,7 @@ const page = () => {
                                                 <div className="col-md-12">
                                                     <div className="boxSelected">
                                                         <div className="icon">
-                                                            <img src="assets/images/subscribe/veg-icon.png" alt="" />
+                                                            <img src="/assets/images/subscribe/veg-icon.png" alt="" />
                                                         </div>
                                                         <div className="title">
                                                             Odysseys Of The North
@@ -92,7 +92,7 @@ const page = () => {
                                                 <div className="col-md-12">
                                                     <div className="boxSelected">
                                                         <div className="icon">
-                                                            <img src="assets/images/subscribe/veg-icon.png" alt="" />
+                                                            <img src="/assets/images/subscribe/veg-icon.png" alt="" />
                                                         </div>
                                                         <div className="title">
                                                             Maratha Culinary Heritage
@@ -102,7 +102,7 @@ const page = () => {
                                                 <div className="col-md-12">
                                                     <div className="boxSelected">
                                                         <div className="icon">
-                                                            <img src="assets/images/subscribe/veg-icon.png" alt="" />
+                                                            <img src="/assets/images/subscribe/veg-icon.png" alt="" />
                                                         </div>
                                                         <div className="title">
                                                             Southern Spice Symphony
@@ -162,7 +162,7 @@ const page = () => {
                                                                     <input type="text" placeholder="Card number" />
                                                                 </div>
                                                                 <div className="col">
-                                                                    <img src="assets/images/icons/mastercard.png" alt="" />
+                                                                    <img src="/assets/images/icons/mastercard.png" alt="" />
                                                                 </div>
                                                                 <div className="col-md-12">
                                                                     <input type="text" placeholder="Card Holder Name" />

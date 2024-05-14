@@ -28,7 +28,7 @@ const page = () => {
     <>
       <section className="banner">
         <div className="bg" data-aos="fade-down-left" data-aos-delay="300">
-          <img src="assets/images/bg/001.svg" alt="" />
+          <img src="/assets/images/bg/001.svg" alt="" />
         </div>
         <div className="container">
           <div className="row">
@@ -52,7 +52,7 @@ const page = () => {
                   data-aos-delay="200"
                 >
                   Subscribe Now{" "}
-                  <img src="assets/images/icons/right-arrow.svg" alt="" />
+                  <img src="/assets/images/icons/right-arrow.svg" alt="" />
                 </Link>
               </div>
             </div>
@@ -70,7 +70,7 @@ const page = () => {
       </section>
       <section className="howItWorksSection">
         <div className="bg">
-          <img src="assets/images/bg/002.svg" alt="" />
+          <img src="/assets/images/bg/002.svg" alt="" />
         </div>
         <div className="container">
           <div className="row row-gap-5 justify-content-center">
@@ -95,7 +95,7 @@ const page = () => {
           <div className="row row-gap-5 mt-5">
             <div className="col-md-4">
               <div className="item" data-aos="fade-right" data-aos-delay="000">
-                <img src="assets//images/how-it-works/hiw1.svg" alt="" />
+                <img src="/assets//images/how-it-works/hiw1.svg" alt="" />
                 <div className="details">
                   <h2>
                     Subscribe To
@@ -112,7 +112,7 @@ const page = () => {
             </div>
             <div className="col-md-4">
               <div className="item" data-aos="fade-up" data-aos-delay="100">
-                <img src="assets//images/how-it-works/hiw2.svg" alt="" />
+                <img src="/assets//images/how-it-works/hiw2.svg" alt="" />
                 <div className="details">
                   <h2>
                     Tailor
@@ -129,7 +129,7 @@ const page = () => {
             </div>
             <div className="col-md-4">
               <div className="item" data-aos="fade-left" data-aos-delay="000">
-                <img src="assets//images/how-it-works/hiw3.svg" alt="" />
+                <img src="/assets//images/how-it-works/hiw3.svg" alt="" />
                 <div className="details">
                   <h2>
                     Savour The
@@ -1023,7 +1023,7 @@ const page = () => {
           >
             <a href="" className="btn1">
               Subscribe Now{" "}
-              <img src="assets/images/icons/right-arrow.svg" alt="" />
+              <img src="/assets/images/icons/right-arrow.svg" alt="" />
             </a>
           </div>
         </div>

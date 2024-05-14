@@ -69,7 +69,7 @@ const page = () => {
                                             </div>
                                         </div>
                                         <div className="row mt-5 justify-content-center">
-                                            <a href="#" className="btn1">Confirm <img src="assets/images/icons/right-arrow.svg" alt="" /></a>
+                                            <a href="#" className="btn1">Confirm <img src="/assets/images/icons/right-arrow.svg" alt="" /></a>
                                         </div>
                                     </form>
                                 </div>

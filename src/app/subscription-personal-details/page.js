@@ -40,7 +40,7 @@ const page = () => {
                                             <div className="col-md-12">
                                                 <div className="boxSelected">
                                                     <div className="box">
-                                                        <img src="assets/images/subscribe/box.png" alt="" />
+                                                        <img src="/assets/images/subscribe/box.png" alt="" />
                                                     </div>
                                                     <div className="title">
                                                         Large Size Tiffin Box
@@ -60,7 +60,7 @@ const page = () => {
                                             <div className="col-md-12">
                                                 <div className="boxSelected">
                                                     <div className="box">
-                                                        <img src="assets/images/subscribe/veg.png" alt="" />
+                                                        <img src="/assets/images/subscribe/veg.png" alt="" />
                                                     </div>
                                                     <div className="title">
                                                         Vegetarian Diet
@@ -82,7 +82,7 @@ const page = () => {
                                                 <div className="col-md-12">
                                                     <div className="boxSelected">
                                                         <div className="icon">
-                                                            <img src="assets/images/subscribe/veg-icon.png" alt="" />
+                                                            <img src="/assets/images/subscribe/veg-icon.png" alt="" />
                                                         </div>
                                                         <div className="title">
                                                             Odysseys Of The North
@@ -92,7 +92,7 @@ const page = () => {
                                                 <div className="col-md-12">
                                                     <div className="boxSelected">
                                                         <div className="icon">
-                                                            <img src="assets/images/subscribe/veg-icon.png" alt="" />
+                                                            <img src="/assets/images/subscribe/veg-icon.png" alt="" />
                                                         </div>
                                                         <div className="title">
                                                             Maratha Culinary Heritage
@@ -102,7 +102,7 @@ const page = () => {
                                                 <div className="col-md-12">
                                                     <div className="boxSelected">
                                                         <div className="icon">
-                                                            <img src="assets/images/subscribe/veg-icon.png" alt="" />
+                                                            <img src="/assets/images/subscribe/veg-icon.png" alt="" />
                                                         </div>
                                                         <div className="title">
                                                             Southern Spice Symphony
@@ -182,7 +182,7 @@ const page = () => {
                                                 </div>
                                             </div>
                                             <div className="row mt-5 justify-content-center">
-                                                <Link href="subscription-payment#Payment" className="btn1">Confirm <img src="assets/images/icons/right-arrow.svg" alt="" /></Link>
+                                                <Link href="subscription-payment#Payment" className="btn1">Confirm <img src="/assets/images/icons/right-arrow.svg" alt="" /></Link>
                                             </div>
                                         </form>
                                     </div>

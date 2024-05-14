@@ -48,10 +48,10 @@ const page = () => {
                                     </button>
                                 </Link>
                                 <Link href='' className='loginWith'>
-                                    <img src="assets/images/icons/google.svg" alt="" /> Log in with Google
+                                    <img src="/assets/images/icons/google.svg" alt="" /> Log in with Google
                                 </Link>
                                 <Link href='' className='loginWith'>
-                                    <img src="assets/images/icons/facebook-login.svg" alt="" /> Log in with Facebook
+                                    <img src="/assets/images/icons/facebook-login.svg" alt="" /> Log in with Facebook
                                 </Link>
                             </div>
                         </form>

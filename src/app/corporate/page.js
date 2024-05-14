@@ -15,7 +15,7 @@ const page = () => {
       <>
       <div id="main">
           <section className="banner">
-            <div className="bg"><img src="assets/images/bg/001.svg" alt="" /></div>
+            <div className="bg"><img src="/assets/images/bg/001.svg" alt="" /></div>
             <div className="container">
                 <div className="row">
                     <div className="col-md-6">
@@ -27,7 +27,7 @@ const page = () => {
                     </div>
                     
                     <div className="col-md-6 " data-aos="fade-left" data-aos-delay="100">
-                        <img src="assets/images/banner/for-corporate.svg" alt="" />
+                        <img src="/assets/images/banner/for-corporate.svg" alt="" />
                     </div>
                 </div>
             </div>
@@ -38,7 +38,7 @@ const page = () => {
             <div className="container">
                 <div className="row row-gap-4 align-items-center">
                     <div className="col-md-6 d-flex justify-content-center" data-aos="fade-right" data-aos-delay="000">
-                        <img src="assets/images/for-corporate/001.svg" alt="" />
+                        <img src="/assets/images/for-corporate/001.svg" alt="" />
                     </div>
                     <div className="col-md-6">
                         <h1 className="heading2" data-aos="fade-left" data-aos-delay="000">Curtails Operating <span>Costs<br/>of Cafeterias</span></h1>
@@ -51,7 +51,7 @@ const page = () => {
             <div className="container">
                 <div className="row row-gap-4 align-items-center">
                     <div className="col-md-6 d-flex justify-content-center order-md-2" data-aos="fade-left" data-aos-delay="000">
-                        <img src="assets/images/for-corporate/002.svg" alt="" />
+                        <img src="/assets/images/for-corporate/002.svg" alt="" />
                     </div>
                     <div className="col-md-6 order-md-1">
                         <h1 className="heading2" data-aos="fade-right" data-aos-delay="000">Bolsters Creativity<br/>by <span>Reducing Food Monotony</span></h1>
@@ -64,7 +64,7 @@ const page = () => {
             <div className="container">
                 <div className="row row-gap-4 align-items-center">
                     <div className="col-md-6 d-flex justify-content-center" data-aos="fade-right" data-aos-delay="000">
-                        <img src="assets/images/for-corporate/003.svg" alt="" />
+                        <img src="/assets/images/for-corporate/003.svg" alt="" />
                     </div>
                     <div className="col-md-6">
                         <h1 className="heading2" data-aos="fade-left" data-aos-delay="000">Boosts Inter-Cultural<br/><span>Respectability Amongst<br/>Employees</span></h1>
@@ -77,7 +77,7 @@ const page = () => {
             <div className="container">
                 <div className="row row-gap-4 align-items-center">
                     <div className="col-md-6 d-flex justify-content-center order-md-2" data-aos="fade-left" data-aos-delay="000">
-                        <img src="assets/images/for-corporate/004.svg" alt="" />
+                        <img src="/assets/images/for-corporate/004.svg" alt="" />
                     </div>
                     <div className="col-md-6 order-md-1">
                         <h1 className="heading2" data-aos="fade-right" data-aos-delay="000">Increases Post- <span>Lunch<br/>Productivity</span></h1>
@@ -90,7 +90,7 @@ const page = () => {
             <div className="container">
                 <div className="row row-gap-4 align-items-center">
                     <div className="col-md-6 d-flex" data-aos="fade-right" data-aos-delay="000">
-                        <img src="assets/images/for-corporate/005.svg" alt="" />
+                        <img src="/assets/images/for-corporate/005.svg" alt="" />
                     </div>
                     <div className="col-md-6">
                         <h1 className="heading2" data-aos="fade-left" data-aos-delay="000">Encourages  <span>Interaction</span></h1>

@@ -50,7 +50,7 @@ const page = () => {
                                                 <div className="title fw-bold text-neutral-400">Billing and Payments</div>
                                                 <div className="d-flex align-items-center gap-3">
                                                     <div>
-                                                        <img src="assets/images/icons/mastercard.png" alt="" />
+                                                        <img src="/assets/images/icons/mastercard.png" alt="" />
                                                     </div>
                                                     <div className="pt-2">
                                                         <p className="fs-400 text-neutral-900">Visa ending ****8970</p>
@@ -58,7 +58,7 @@ const page = () => {
                                                 </div>
                                                 <div className="d-flex gap-3 mt-2">
                                                     <div>
-                                                        <img src="assets/images/icons/uil_calender.svg" alt="" />
+                                                        <img src="/assets/images/icons/uil_calender.svg" alt="" />
                                                     </div>
                                                     <div>
                                                         <p className="fs-250 text-neutral-900"><strong>₹3,554.00/mo</strong><br/>
@@ -73,7 +73,7 @@ const page = () => {
                                                 <div className="title fw-bold text-neutral-400 mt-3">Box Size</div>
                                                 <div className="boxSelected mt-3">
                                                     <div className="box">
-                                                        <img src="assets/images/subscribe/box.png" alt="" />
+                                                        <img src="/assets/images/subscribe/box.png" alt="" />
                                                     </div>
                                                     <div className="title">
                                                         Large Size Tiffin Box
@@ -84,7 +84,7 @@ const page = () => {
                                                 <div className="title fw-bold text-neutral-400 mt-3">Diet Type</div>
                                                 <div className="boxSelected mt-3">
                                                     <div className="box">
-                                                        <img src="assets/images/subscribe/veg.png" alt="" />
+                                                        <img src="/assets/images/subscribe/veg.png" alt="" />
                                                     </div>
                                                     <div className="title">
                                                         Vegetarian Diet
@@ -100,7 +100,7 @@ const page = () => {
                                                     <div className="col-md-12">
                                                         <div className="boxSelected">
                                                             <div className="icon">
-                                                                <img src="assets/images/subscribe/veg-icon.png" alt="" />
+                                                                <img src="/assets/images/subscribe/veg-icon.png" alt="" />
                                                             </div>
                                                             <div className="title">
                                                                 Odysseys Of The North
@@ -110,7 +110,7 @@ const page = () => {
                                                     <div className="col-md-12">
                                                         <div className="boxSelected">
                                                             <div className="icon">
-                                                                <img src="assets/images/subscribe/veg-icon.png" alt="" />
+                                                                <img src="/assets/images/subscribe/veg-icon.png" alt="" />
                                                             </div>
                                                             <div className="title">
                                                                 Maratha Culinary Heritage
@@ -120,7 +120,7 @@ const page = () => {
                                                     <div className="col-md-12">
                                                         <div className="boxSelected">
                                                             <div className="icon">
-                                                                <img src="assets/images/subscribe/veg-icon.png" alt="" />
+                                                                <img src="/assets/images/subscribe/veg-icon.png" alt="" />
                                                             </div>
                                                             <div className="title">
                                                                 Southern Spice Symphony

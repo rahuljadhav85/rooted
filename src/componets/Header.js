@@ -13,9 +13,9 @@ const Header = () => {
             <div className="container">
                 <div className="wrapper">
                     <button className="mobileToggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
-                        <img src="assets/images/icons/menu.svg" alt="" />
+                        <img src="/assets/images/icons/menu.svg" alt="" />
                       </button>
-                      <Link href="/" className="logo"><img src="assets/images/logo/logo.svg" alt="" /></Link>
+                      <Link href="/" className="logo"><img src="/assets/images/logo/logo.svg" alt="" /></Link>
 
                     <div className="navigationWrapper">
                         <ul className="desktopMenu onlyDesktop">
@@ -38,13 +38,13 @@ const Header = () => {
                         <div className="btn-group loggedIN">
                             <button type="button" className="btn btn-secondary" data-bs-toggle="dropdown" aria-expanded="false">
                                 <div className="profile">J</div>
-                                <div className="name">John Doe</div> <img src="assets/images/icons/account-arrow.svg" className="arrow" alt="" />
+                                <div className="name">John Doe</div> <img src="/assets/images/icons/account-arrow.svg" className="arrow" alt="" />
                             </button>
                             <ul className="dropdown-menu dropdown-menu-end">
                                 <li><Link href="/personal-details" className="dropdown-item" type="button">Edit Profile</Link></li>
                                 <li><Link href="/subscription-details" className="dropdown-item" type="button">Subscription details</Link></li>
                                 <li><Link href="/subscription-billing-history" className="dropdown-item" type="button">Billing History</Link></li>
-                                <li><Link href="" className="dropdown-item" type="button">Log out <img src="assets/images/icons/logout.svg" alt="" /></Link></li>
+                                <li><Link href="" className="dropdown-item" type="button">Log out <img src="/assets/images/icons/logout.svg" alt="" /></Link></li>
                             </ul>
                         </div>
                     </div>
@@ -55,7 +55,7 @@ const Header = () => {
         </header>
         <div className="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
             <div className="offcanvas-header">
-                <h5 className="offcanvas-title" id="mobileMenuLabel"><img src="assets/images/logo/logo.svg" alt="" /></h5>
+                <h5 className="offcanvas-title" id="mobileMenuLabel"><img src="/assets/images/logo/logo.svg" alt="" /></h5>
                 <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div className="offcanvas-body mobile-menu">
