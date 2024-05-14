@@ -16,7 +16,7 @@ const page = () => {
       <>
       <div id="main">
           <section className="banner">
-            <div className="bg"><img src="/assets/images/bg/001.svg" alt="" /></div>
+            <div className="bg"><img src="assets/images/bg/001.svg" alt="" /></div>
             <div className="container">
                 <div className="row">
                     <div className="col-md-6">
@@ -28,7 +28,7 @@ const page = () => {
                     </div>
                     
                     <div className="col-md-6 ">
-                        <img src="/assets/images/banner/about.svg" data-aos="fade-left" data-aos-delay="100" alt="" />
+                        <img src="assets/images/banner/about.svg" data-aos="fade-left" data-aos-delay="100" alt="" />
                     </div>
                 </div>
             </div>
@@ -45,7 +45,7 @@ const page = () => {
                 <div className="row row-gap-5 mt-5">
                     <div className="col-md-3" data-aos="fade-up" data-aos-delay="000">
                         <div className="item">
-                            <img src="/assets/images/values/inclusive.jpg" alt="" className="bg inclusive" />
+                            <img src="assets/images/values/inclusive.jpg" alt="" className="bg inclusive" />
                             <div className="details prime">
                                 <h2>Inclusive</h2>
                                 <p>Rooted champions inclusivity by offering a diverse menu that caters to a wide range of dietary needs, preferences, and cultural tastes. Our goal is to create a dining experience where everyone feels cherished and excited to explore the vast world of flavours together.</p>
@@ -54,7 +54,7 @@ const page = () => {
                     </div>
                     <div className="col-md-3" data-aos="fade-up" data-aos-delay="100">
                         <div className="item">
-                            <img src="/assets/images/values/sustainable.jpg" alt="" className="bg sustainable" />
+                            <img src="assets/images/values/sustainable.jpg" alt="" className="bg sustainable" />
                             <div className="details second">
                                 <h2>Sustainable</h2>
                                 <p>We are Rooting to committed to maximise a positive environmental impact.  Our eco-friendly packaging solutions are designed to reduce plastic waste, promote recycling, to ensure that you enjoy guilt-free meals and contribute to a healthier planet.</p>
@@ -63,7 +63,7 @@ const page = () => {
                     </div>
                     <div className="col-md-3" data-aos="fade-up" data-aos-delay="200">
                         <div className="item">
-                            <img src="/assets/images/values/sharing.jpg" alt="" className="bg sharing" />
+                            <img src="assets/images/values/sharing.jpg" alt="" className="bg sharing" />
                             <div className="details prime">
                                 <h2>Sharing</h2>
                                 <p>At Rooted, we believe in cultivating connections through food and foster a sense of community. Our meals are to be shared, encourage conversations, create moments that bring us closer.</p>
@@ -72,7 +72,7 @@ const page = () => {
                     </div>
                     <div className="col-md-3" data-aos="fade-up" data-aos-delay="300">
                         <div className="item">
-                            <img src="/assets/images/values/reconnecting.jpg" alt="" className="bg reconnecting" />
+                            <img src="assets/images/values/reconnecting.jpg" alt="" className="bg reconnecting" />
                             <div className="details second">
                                 <h2>Reconnecting with Food</h2>
                                 <p>We want you to know the origin of your food, understand its cultural significance, and appreciate the hands that prepared it. By fostering a deeper connection with food, we encourage mindful eating practices, greater appreciation for culinary arts, and mostly a profoundly meaningful dining experience.</p>
@@ -87,7 +87,7 @@ const page = () => {
             <div className="container">
                 <div className="row row-gap-4 align-items-center">
                     <div className="col-md-6" data-aos="fade-right" data-aos-delay="000">
-                        <img src="/assets/images/img1.svg" alt="" />
+                        <img src="assets/images/img1.svg" alt="" />
                     </div>
                     <div className="col-md-6">
                         <h1 className="heading1" data-aos="fade-left" data-aos-delay="000">What We Stand For</h1>
@@ -113,7 +113,7 @@ const page = () => {
                     <div className="col-md-4" data-aos="fade-up" data-aos-delay="000">
                         <div className="box">
                             <div className="overlay"> </div>
-                            <img src="/assets/images/founder/001.jpg" alt="" className="bg" />
+                            <img src="assets/images/founder/001.jpg" alt="" className="bg" />
                             <div className="details prime">
                                 <h2>Saurabh Wadkar</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet sagittis velit, ac faucibus tortor. Proin massa eros, lacinia sed enim vitae, elementum dictum sapien. Cras vitae turpis sit amet massa faucibus sollicitudin sit amet eget quam. Ut consequat non sem vel condimentum. Nam venenatis tempus dignissim. Suspendisse fermentum pretium vestibulum. Suspendisse eget scelerisque ligula, vel pellentesque ipsum. Proin tempor vitae quam non eleifend.</p>
@@ -123,7 +123,7 @@ const page = () => {
                     <div className="col-md-4" data-aos="fade-up" data-aos-delay="100">
                         <div className="box">
                             <div className="overlay"> </div>
-                            <img src="/assets/images/founder/001.jpg" alt="" className="bg" />
+                            <img src="assets/images/founder/001.jpg" alt="" className="bg" />
                             <div className="details second">
                                 <h2>Neha Shah</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet sagittis velit, ac faucibus tortor. Proin massa eros, lacinia sed enim vitae, elementum dictum sapien. Cras vitae turpis sit amet massa faucibus sollicitudin sit amet eget quam. Ut consequat non sem vel condimentum. Nam venenatis tempus dignissim. Suspendisse fermentum pretium vestibulum. Suspendisse eget scelerisque ligula, vel pellentesque ipsum. Proin tempor vitae quam non eleifend.</p>

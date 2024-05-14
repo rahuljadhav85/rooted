@@ -29,7 +29,7 @@ const page = () => {
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-md-4">
-                        <img src="/assets/images/thank-you.svg" alt="" />
+                        <img src="assets/images/thank-you.svg" alt="" />
                     </div>
                 </div>
                 <div className="row justify-content-center">
@@ -53,10 +53,10 @@ const page = () => {
                 </div>
                 <div className="row row-gap-4 justify-content-center mt-5">
                     <div className="col-md-3">
-                        <a href="" className="btn1 w-100"><div className="circle"><img src="/assets/images/icons/mail.svg" alt="" /></div> name.123@gmail.com</a>
+                        <a href="" className="btn1 w-100"><div className="circle"><img src="assets/images/icons/mail.svg" alt="" /></div> name.123@gmail.com</a>
                     </div>
                     <div className="col-md-3">
-                        <a href="" className="btn2 w-100"><div className="circle"><img src="/assets/images/icons/call.png" alt="" /></div> +91 68465 58468</a>
+                        <a href="" className="btn2 w-100"><div className="circle"><img src="assets/images/icons/call.png" alt="" /></div> +91 68465 58468</a>
                     </div>
                 </div>
                 <div className="row justify-content-center mt-5">
@@ -64,10 +64,10 @@ const page = () => {
                         <h3 className="text-center">Follow Us On Social Media</h3>
                     </div>
                     <ul>
-                        <li><a href=""><img src="/assets/images/icons/insta.svg" alt="" /></a></li>
-                        <li><a href=""><img src="/assets/images/icons/facebook.svg" alt="" /></a></li>
-                        <li><a href=""><img src="/assets/images/icons/youtube.svg" alt="" /></a></li>
-                        <li><a href=""><img src="/assets/images/icons/linkedin.svg" alt="" /></a></li>
+                        <li><a href=""><img src="assets/images/icons/insta.svg" alt="" /></a></li>
+                        <li><a href=""><img src="assets/images/icons/facebook.svg" alt="" /></a></li>
+                        <li><a href=""><img src="assets/images/icons/youtube.svg" alt="" /></a></li>
+                        <li><a href=""><img src="assets/images/icons/linkedin.svg" alt="" /></a></li>
                     </ul>
                 </div>
             </div>

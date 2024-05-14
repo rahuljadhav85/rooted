@@ -14,11 +14,11 @@ export default function RootLayout({ children }) {
       <head>
           <meta charset="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <link rel="shortcut icon" href="/assets/images/logo/favicon.jpg" type="image/x-icon" />
+          <link rel="shortcut icon" href="assets/images/logo/favicon.jpg" type="image/x-icon" />
           <title>Rooted</title>
           <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-          <link rel="stylesheet" href="/assets/css/style.css" />
+          <link rel="stylesheet" href="assets/css/style.css" />
       </head>
       <body id="darkHeader">
           <Header />
@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js'></script>
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-        <script type="text/javascript" src="/assets/js/script.js"></script>
+        <script type="text/javascript" src="assets/js/script.js"></script>
         
       </body>
     </html>

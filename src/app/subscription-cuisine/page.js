@@ -40,7 +40,7 @@ const page = () => {
                                             <div className="col-md-12">
                                                 <div className="boxSelected">
                                                     <div className="box">
-                                                        <img src="/assets/images/subscribe/box.png" alt="" />
+                                                        <img src="assets/images/subscribe/box.png" alt="" />
                                                     </div>
                                                     <div className="title">
                                                         Large Size Tiffin Box
@@ -60,7 +60,7 @@ const page = () => {
                                             <div className="col-md-6">
                                                 <div className="boxSelected">
                                                     <div className="box">
-                                                        <img src="/assets/images/subscribe/veg.png" alt="" />
+                                                        <img src="assets/images/subscribe/veg.png" alt="" />
                                                     </div>
                                                     <div className="title">
                                                         Vegetarian Diet
@@ -84,7 +84,7 @@ const page = () => {
                                                         <input className="form-check-input" name="Cuisine" type="checkbox" value="" id="North" />
                                                         <span className="checkmark"></span>
                                                         <label className="form-check-label" for="North">
-                                                            <img src="/assets/images/subscribe/001.png" alt="" />
+                                                            <img src="assets/images/subscribe/001.png" alt="" />
                                                         </label>
                                                         <div className="title">Odysseys Of The North</div>
                                                     </div>
@@ -94,7 +94,7 @@ const page = () => {
                                                         <input className="form-check-input" name="Cuisine" type="checkbox" value="" id="Maratha" />
                                                         <span className="checkmark"></span>
                                                         <label className="form-check-label" for="Maratha">
-                                                            <img src="/assets/images/subscribe/002.png" alt="" />
+                                                            <img src="assets/images/subscribe/002.png" alt="" />
                                                         </label>
                                                         <div className="title">Maratha Culinary Heritage</div>
                                                     </div>
@@ -104,7 +104,7 @@ const page = () => {
                                                         <input className="form-check-input" name="Cuisine" type="checkbox" value="" id="Southern" />
                                                         <span className="checkmark"></span>
                                                         <label className="form-check-label" for="Southern">
-                                                            <img src="/assets/images/subscribe/003.png" alt="" />
+                                                            <img src="assets/images/subscribe/003.png" alt="" />
                                                         </label>
                                                         <div className="title">Southern Spice Symphony</div>
                                                     </div>
@@ -114,7 +114,7 @@ const page = () => {
                                                         <input className="form-check-input" name="Cuisine" type="checkbox" value="" id="Gujarati" />
                                                         <span className="checkmark"></span>
                                                         <label className="form-check-label" for="Gujarati">
-                                                            <img src="/assets/images/subscribe/004.png" alt="" />
+                                                            <img src="assets/images/subscribe/004.png" alt="" />
                                                         </label>
                                                         <div className="title">Gujarati Gourmet Tapestry</div>
                                                     </div>
@@ -124,7 +124,7 @@ const page = () => {
                                                         <input className="form-check-input" name="Cuisine" type="checkbox" value="" id="Bengali" />
                                                         <span className="checkmark"></span>
                                                         <label className="form-check-label" for="Bengali">
-                                                            <img src="/assets/images/subscribe/005.png" alt="" />
+                                                            <img src="assets/images/subscribe/005.png" alt="" />
                                                         </label>
                                                         <div className="title">Bengali Flavour Symphony</div>
                                                     </div>
@@ -132,7 +132,7 @@ const page = () => {
                                             </div>
                                             
                                             <div className="row mt-5 justify-content-center">
-                                                <Link href="subscription-delivery-days#DeliveryDays" className="btn1">Confirm <img src="/assets/images/icons/right-arrow.svg" alt="" /></Link>
+                                                <Link href="subscription-delivery-days#DeliveryDays" className="btn1">Confirm <img src="assets/images/icons/right-arrow.svg" alt="" /></Link>
                                             </div>
                                         </div>
                                     </div>
