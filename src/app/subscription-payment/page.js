@@ -179,7 +179,7 @@ const page = () => {
                                                                     <a href="#" className="btn1 w-100">Cancel</a>
                                                                 </div>
                                                                 <div className="col-md-6">
-                                                                    <a href="subscription-thank-you.php" className="btn1 w-100">Pay Now </a>
+                                                                    <Link href="/subscription-thank-you" className="btn1 w-100">Pay Now </Link>
                                                                 </div>
                                                             </div>
                                                         </form>

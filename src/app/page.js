@@ -1015,7 +1015,7 @@ const page = () => {
       </section>
       
 
-      <section className="whyRooted | padding-block-max">
+      <section id="whyRooted" className="whyRooted | padding-block-max">
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-md-6">
@@ -1322,6 +1322,7 @@ const page = () => {
           </div>
         </div>
       </section>
+      
     </>
   );
 };

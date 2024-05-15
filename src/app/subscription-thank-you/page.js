@@ -28,7 +28,7 @@ const page = () => {
         <section className="thankYou | margin-bottom-900 mt-3">
             <div className="container">
                 <div className="row justify-content-center">
-                    <div className="col-md-4">
+                    <div className="col-md-2">
                         <img src="assets/images/thank-you.svg" alt="" />
                     </div>
                 </div>

@@ -21,10 +21,10 @@ const Footer = () => {
                             <div className="row row-gap-5">
                                 <div className="col-md-6">
                                     <div className="linkWrapper">
-                                        <Link href="#" className="singleLink">Why Rooted</Link>
-                                        <Link href="#" className="singleLink">About us</Link>
+                                        <Link href="/#whyRooted" className="singleLink">Why Rooted</Link>
+                                        <Link href="/aboutus" className="singleLink">About us</Link>
                                         <Link href="#" className="singleLink">Contact Us</Link>
-                                        <Link href="#" className="singleLink">Login</Link>
+                                        <Link href="/login" className="singleLink">Login</Link>
                                         
                                     </div>
                                 </div>
