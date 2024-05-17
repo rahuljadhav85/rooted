@@ -196,7 +196,11 @@ const page = () => {
                         </div>
                     </div>
                     <div className="col-md-4">
-                        <OrderSummery />
+                        <div id="orderSummeryWrap">
+                            <div id="sidebar">
+                                <OrderSummery />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
