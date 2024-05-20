@@ -1,7 +1,11 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Link from 'next/link'
 import OrderSummery from '@/componets/OrderSummery'
+import 'react-date-range/dist/styles.css'; // main css file
+import 'react-date-range/dist/theme/default.css'; // theme css file
+import { DateRange } from 'react-date-range';
+
 
 const page = () => {
     useEffect(() => {
@@ -10,7 +14,14 @@ const page = () => {
           document.body.classList.remove('headeBorder')
         }
       }, [])
-
+      const [state, setState] = useState([
+        {
+          startDate: new Date(),
+          endDate: new Date(),
+          key: 'selection'
+        }
+      ]);
+    
   return (
     
       < >
@@ -135,223 +146,17 @@ const page = () => {
                                             </div>
                                         </form>
                                         <div className="row row-gap-4 mt-5 justify-content-center">
-                                            <div className="col-md-12">
-                                                <h3 className="fs-500 text-center fw-bold">March 2024</h3>
+                                            <div className="col-md-10">
+                                                <DateRange
+                                                    editableDateInputs={true}
+                                                    minDate={new Date()}
+                                                    onChange={item => setState([item.selection])}
+                                                    moveRangeOnFirstSelection={false}
+                                                          ranges={state}
+                                                          rangeColors={['#115561', '#115561']}
+                                                />
                                             </div>
-                                            <div className="col-md-12">
-                                                
-                                                <div className="calendar">
-                                                    <div className="grid-7-by-1">
-                                                        <div className="title">Sun</div>
-                                                        <div className="title">Mon</div>
-                                                        <div className="title">Tue</div>
-                                                        <div className="title">Wed</div>
-                                                        <div className="title">Thu</div>
-                                                        <div className="title">Fri</div>
-                                                        <div className="title">Sat</div>
-                                                    </div>
-                                                    <div className="grid-7-by-5">
-                                                        <div className="item disabled">
-                                                            <div>27</div>
-                                                        </div>
-                                                        <div className="item disabled">
-                                                            <div>29</div>
-                                                        </div>
-                                                        <div className="item">
-                                                            <div>1</div>
-                                                            <div className="icon">
-                                                                <img src="assets/images/icons/calendar-icon.svg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="item">
-                                                            <div>2</div>
-                                                            <div className="icon">
-                                                                <img src="assets/images/icons/calendar-icon.svg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="item">
-                                                            <div>3</div>
-                                                            <div className="icon">
-                                                                <img src="assets/images/icons/calendar-icon.svg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="item">
-                                                            <div>4</div>
-                                                            <div className="icon">
-                                                                <img src="assets/images/icons/calendar-icon.svg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="item">
-                                                            <div>5</div>
-                                                            <div className="icon">
-                                                                <img src="assets/images/icons/calendar-icon.svg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="item holiday">
-                                                            <div>6</div>
-                                                            <div className="icon">
-                                                                <img src="assets/images/icons/calendar-icon2.svg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="item">
-                                                            <div>7</div>
-                                                            <div className="icon">
-                                                                <img src="assets/images/icons/calendar-icon.svg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="item">
-                                                            <div>8</div>
-                                                            <div className="icon">
-                                                                <img src="assets/images/icons/calendar-icon.svg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="item">
-                                                            <div>9</div>
-                                                            <div className="icon">
-                                                                <img src="assets/images/icons/calendar-icon.svg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="item">
-                                                            <div>10</div>
-                                                            <div className="icon">
-                                                                <img src="assets/images/icons/calendar-icon.svg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="item">
-                                                            <div>11</div>
-                                                            <div className="icon">
-                                                                <img src="assets/images/icons/calendar-icon.svg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="item">
-                                                            <div>12</div>
-                                                            <div className="icon">
-                                                                <img src="assets/images/icons/calendar-icon.svg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="item holiday">
-                                                            <div>13</div>
-                                                            <div className="icon">
-                                                                <img src="assets/images/icons/calendar-icon2.svg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="item">
-                                                            <div>14</div>
-                                                            <div className="icon">
-                                                                <img src="assets/images/icons/calendar-icon.svg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="item">
-                                                            <div>15</div>
-                                                            <div className="icon">
-                                                                <img src="assets/images/icons/calendar-icon.svg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="item">
-                                                            <div>16</div>
-                                                            <div className="icon">
-                                                                <img src="assets/images/icons/calendar-icon.svg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="item">
-                                                            <div>17</div>
-                                                            <div className="icon">
-                                                                <img src="assets/images/icons/calendar-icon.svg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="item">
-                                                            <div>18</div>
-                                                            <div className="icon">
-                                                                <img src="assets/images/icons/calendar-icon.svg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="item">
-                                                            <div>19</div>
-                                                            <div className="icon">
-                                                                <img src="assets/images/icons/calendar-icon.svg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="item holiday">
-                                                            <div>20</div>
-                                                            <div className="icon">
-                                                                <img src="assets/images/icons/calendar-icon2.svg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="item">
-                                                            <div>21</div>
-                                                            <div className="icon">
-                                                                <img src="assets/images/icons/calendar-icon.svg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="item holiday">
-                                                            <div>22</div>
-                                                            <div className="icon">
-                                                                <img src="assets/images/icons/calendar-icon2.svg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="item">
-                                                            <div>23</div>
-                                                            <div className="icon">
-                                                                <img src="assets/images/icons/calendar-icon.svg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="item">
-                                                            <div>24</div>
-                                                            <div className="icon">
-                                                                <img src="assets/images/icons/calendar-icon.svg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="item">
-                                                            <div>25</div>
-                                                            <div className="icon">
-                                                                <img src="assets/images/icons/calendar-icon.svg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="item">
-                                                            <div>26</div>
-                                                            <div className="icon">
-                                                                <img src="assets/images/icons/calendar-icon.svg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="item holiday">
-                                                            <div>27</div>
-                                                            <div className="icon">
-                                                                <img src="assets/images/icons/calendar-icon2.svg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="item">
-                                                            <div>28</div>
-                                                            <div className="icon">
-                                                                <img src="assets/images/icons/calendar-icon.svg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="item">
-                                                            <div>29</div>
-                                                            <div className="icon">
-                                                                <img src="assets/images/icons/calendar-icon.svg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="item">
-                                                            <div>30</div>
-                                                            <div className="icon">
-                                                                <img src="assets/images/icons/calendar-icon.svg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="item">
-                                                            <div>31</div>
-                                                            <div className="icon">
-                                                                <img src="assets/images/icons/calendar-icon.svg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                        <div className="item disabled">
-                                                            <div>1</div>
-                                                        </div>
-                                                        <div className="item disabled">
-                                                            <div>2</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                           
                                         </div>
                                               <div className="row mt-5 justify-content-center">
                                                <Link href="subscription-personal-details#PersonalDetails" className="btn1">Confirm <img src="assets/images/icons/right-arrow.svg" alt="" /></Link>

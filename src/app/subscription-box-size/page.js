@@ -38,7 +38,7 @@ const page = () => {
                                     <div className="content">
                                         <div className="row row-gap-4">
                                             <div className="col-md-6">
-                                                <div className="box-size">
+                                                <div className="box-size boxsize">
                                                     <input className="form-check-input" name="boxSize" type="radio" value="" id="bigSizeBox" />
                                                     <span className="checkmark"></span>
                                                     <label className="form-check-label" for="bigSizeBox">
@@ -48,7 +48,7 @@ const page = () => {
                                                 </div>
                                             </div>
                                             <div className="col-md-6">
-                                                <div className="box-size">
+                                                <div className="box-size boxsize">
                                                     <input className="form-check-input" name="boxSize" type="radio" value="" id="smallSizeBox" />
                                                     <span className="checkmark"></span>
                                                     <label className="form-check-label" for="smallSizeBox">

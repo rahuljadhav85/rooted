@@ -2008,6 +2008,55 @@ form button {
   }
 }
 
+.rdrCalendarWrapper {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+.rdrCalendarWrapper .rdrMonth {
+  width: 100%;
+}
+.rdrCalendarWrapper .rdrDay {
+  aspect-ratio: 1/0.7;
+  height: auto;
+  border: 1px solid #E7EEF8;
+}
+.rdrCalendarWrapper .rdrDay::before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url("../images/icons/calendar-icon.svg");
+  background-size: cover;
+  z-index: 2;
+}
+.rdrCalendarWrapper .rdrDay .rdrStartEdge, .rdrCalendarWrapper .rdrDay .rdrEndEdge, .rdrCalendarWrapper .rdrDay .rdrInRange {
+  top: 0 !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  right: 0 !important;
+}
+.rdrCalendarWrapper .rdrDayNumber {
+  font-size: 16px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+  top: 0;
+  padding: 5px;
+}
+.rdrCalendarWrapper .rdrMonthAndYearPickers select {
+  font-size: 16px;
+}
+.rdrCalendarWrapper .rdrDayStartOfWeek::before {
+  background: url("../images/icons/calendar-icon2.svg");
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+}
+.rdrCalendarWrapper .rdrDayPassive::before {
+  display: none;
+}
+
 footer {
   position: relative;
   width: 100%;

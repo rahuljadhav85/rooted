@@ -1288,5 +1288,57 @@
     }
   }
 
+  .rdrCalendarWrapper{
+    width: 100% ;
+    max-width: 600px;
+    margin: auto;
+    .rdrMonth{
+        width: 100%;
+    }
+    .rdrDay{
+        aspect-ratio: 1/0.7;
+        height: auto;
+        border: 1px solid #E7EEF8;
+        &::before{
+            position: absolute;
+            content: '';
+            width: 20px;
+            height: 20px;
+            background:url('../images/icons/calendar-icon.svg');
+            background-size: cover;
+            z-index: 2;
 
+        }
+        .rdrStartEdge, .rdrEndEdge, .rdrInRange{
+            top: 0 !important;
+            left: 0 !important;
+            bottom: 0 !important;
+            right: 0 !important;
+        }
+    }
+    .rdrDayNumber{
+        font-size: 16px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 100%;
+        top: 0;
+        padding: 5px;
+    }
+    .rdrMonthAndYearPickers select{
+        font-size: 16px;
+    }
+    .rdrDayStartOfWeek{
+        &::before{
+            background:url('../images/icons/calendar-icon2.svg');
+            width: 20px;
+            height: 20px;
+            background-size: cover;
+        }
+    }
+    .rdrDayPassive{
+        &::before{
+            display: none;
+        }
+    }
+  }
   

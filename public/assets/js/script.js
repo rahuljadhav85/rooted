@@ -8,3 +8,11 @@ $(window).scroll(function () {
     }
 });
 
+$(document).ready(function() {
+    $('.boxsize input[type="radio"]').click(function() {
+        window.location.href = '/subscription-diet-type#DietType';
+    });
+    $('#DietType input[type="radio"]').click(function() {
+        window.location.href = '/subscription-cuisine#Cuisine';
+    });
+});

@@ -58,7 +58,7 @@ const page = () => {
                                     <div className="content">
                                         <div className="row row-gap-4">
                                             <div className="col-md-6">
-                                                <div className="box-size">
+                                                <div className="box-size DietType">
                                                     <input className="form-check-input" name="dietType" type="radio" value="" id="veg" />
                                                     <span className="checkmark"></span>
                                                     <label className="form-check-label" for="veg">
@@ -68,7 +68,7 @@ const page = () => {
                                                 </div>
                                             </div>
                                             <div className="col-md-6">
-                                                <div className="box-size">
+                                                <div className="box-size DietType">
                                                     <input className="form-check-input" name="dietType" type="radio" value="" id="nonVeg" />
                                                     <span className="checkmark"></span>
                                                     <label className="form-check-label" for="nonVeg">
