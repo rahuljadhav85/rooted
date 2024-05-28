@@ -35,7 +35,7 @@ const page = () => {
                                 <div className="subBox">
                                     <div className="head">Subscription Details 
                                         <div className="buttonWrap">
-                                                  <Link href="/subscription-box-size" className="cancel">Edit Order </Link>
+                                                  <Link href="/subscription-box-size" className="cancel">Manage Vacation </Link>
                                                   <Link href="/subscription-billing-history" className="history">View Billing History</Link>
                                         </div>
                                     </div>

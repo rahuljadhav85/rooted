@@ -95,23 +95,27 @@ const page = () => {
                                     <label for="">Name</label>
                                     <input type="text" placeholder="Enter Full Name" />
                                 </div>
-                                <div className="col-12">
+                                <div className="col-md-6">
                                     <label for="">Email</label>
                                     <input type="text" placeholder="Enter Email" />
                                 </div>
-                                <div className="col-12">
+                                <div className="col-md-6">
+                                    <label for="">Phone Number</label>
+                                    <input type="text" placeholder="Enter Phone Number" />
+                                </div>
+                                <div className="col-md-6">
                                     <label for="">Company Name</label>
                                     <input type="text" placeholder="Enter Company Name" />
                                 </div>
-                                <div className="col-12">
+                                <div className="col-md-6">
                                     <label for="">Designation</label>
                                     <input type="text" placeholder="Enter Designation" />
                                 </div>
                                 <div className="col-12">
-                                    <label for="">Phone Number</label>
-                                    <input type="text" placeholder="Enter Phone Number" />
+                                    <label for="">Message</label>
+                                    <textarea type="text" placeholder="Enter Message"></textarea>
                                 </div>
-                                <div className="col-12 mt-4">
+                                <div className="col-12 mt-1">
                                     <button className="btn1">Submit</button>
                                 </div>
                             </div>

@@ -5,14 +5,6 @@ const OrderSummery = () => {
     <>
       <div className="row row-gap-4 ">
             <div className="col-12">
-              <div className="coupon">
-                <form action="">
-                  <input type="text" placeholder="Enter Coupon Code" />
-                  <button>Apply Now</button>
-                </form>
-              </div>
-            </div>
-            <div className="col-12">
               <div className="summary">
                 <div className="head">Order Summary</div>
                 <ul>

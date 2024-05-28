@@ -103,7 +103,7 @@ const page = () => {
                         <h1 className="heading1 text-center" data-aos="fade-up" data-aos-delay="000">Our Founders</h1>
                     </div>
                     <div className="col-md-12" data-aos="fade-right" data-aos-delay="000">
-                        <p>Rooted in unwavering dedication and a shared passion for our mission, our exceptional team forms the cornerstone of our success. With diverse backgrounds and unparalleled expertise, each member plays a pivotal role in bringing our vision to life. Together, we combine years of experience and innovative thinking to serve you better, every step of the way.</p>
+                        <p className="text-center">Rooted in unwavering dedication and a shared passion for our mission, our exceptional team forms the cornerstone of our success. With diverse backgrounds and unparalleled expertise, each member plays a pivotal role in bringing our vision to life. Together, we combine years of experience and innovative thinking to serve you better, every step of the way.</p>
                     </div>
                 </div>
                 <div className="row row-gap-4 mt-5 justify-content-center">
@@ -127,7 +127,7 @@ const page = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    {/* <div className="col-md-4" data-aos="fade-up" data-aos-delay="200">
                         <div className="box">
                             <div className="overlay"> </div>
                             <img src="assets/images/founder/001.jpg" alt="" className="bg" />
@@ -136,7 +136,7 @@ const page = () => {
                                 <p>Process-driven Culinary Expert Indian cuisine Aficionado Bulk Cooking Specialist </p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 
             </div>

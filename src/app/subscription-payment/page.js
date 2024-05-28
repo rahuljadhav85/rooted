@@ -147,7 +147,28 @@ const page = () => {
                                 <div className="subBox">
                                     <div className="head">Payment</div>
                                     <div className="content pt-3 pb-3">
-                                        <div className="accordion" id="accordionPayment">
+                                        <div className="row row-gap-4 align-items-center">
+                                            <div className="col-md-6">
+                                                <form action="">
+                                                    <div className="form-check">
+                                                        <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                                                        <label className="form-check-label" for="flexCheckDefault">
+                                                             Use your ₹ 30.00 <span className="fw-medium ">Rooted Wallet Balance</span>
+                                                        </label>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div className="col-md-6">
+                                                <div className="coupon">
+                                                    <form action="">
+                                                    <input type="text" placeholder="Enter Coupon Code" />
+                                                    <button>Apply Now</button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr />
+                                        <div className="accordion mt-3" id="accordionPayment">
                                             <div className="accordion-item">
                                                 <h2 className="accordion-header">
                                                     <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">

@@ -42,8 +42,10 @@ const Header = () => {
                             </button>
                             <ul className="dropdown-menu dropdown-menu-end">
                                 <li><Link href="/personal-details" className="dropdown-item" type="button">Edit Profile</Link></li>
+                                <li><Link href="/manage-payment" className="dropdown-item" type="button">Manage Payment</Link></li>
                                 <li><Link href="/subscription-details" className="dropdown-item" type="button">Subscription details</Link></li>
                                 <li><Link href="/subscription-billing-history" className="dropdown-item" type="button">Billing History</Link></li>
+                                <li><Link href="/subscription-billing-history" className="dropdown-item" type="button">Wallet Bal. <span>₹ 30.00</span></Link></li>
                                 <li><Link href="" className="dropdown-item" type="button">Log out <img src="assets/images/icons/logout.svg" alt="" /></Link></li>
                             </ul>
                         </div>

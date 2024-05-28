@@ -138,8 +138,8 @@ const page = () => {
                                                     <label for="" className="fs-300 text-center fw-medium">Select Weekend Type</label>
                                                     <select name="" id="">
                                                         <option value="">All Saturday</option>
-                                                        <option value="">1st & 3rd Saturday</option>
-                                                        <option value="">2nd & 4th Saturday</option>
+                                                        <option value="">1st & 3rd Saturday's</option>
+                                                        <option value="">2nd & 4th Saturday's</option>
                                                     </select>
                                                 </div>
                                                 
