@@ -1909,6 +1909,7 @@ form button {
   position: absolute;
   top: 25px;
   left: 25px;
+  cursor: pointer;
 }
 .subscribeWrapper .loginBox button {
   width: 100%;
